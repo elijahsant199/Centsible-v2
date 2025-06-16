@@ -1,1 +1,0 @@
-// Expenses screen placeholder
