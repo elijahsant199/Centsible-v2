@@ -1,1 +1,0 @@
-console.log("Centsible script loaded.");
