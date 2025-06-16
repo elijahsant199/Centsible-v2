@@ -1,1 +1,0 @@
-console.log('Centsible resized layout loaded.');
