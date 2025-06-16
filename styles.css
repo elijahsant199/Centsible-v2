@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #111;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+}
+
+.card {
+  background: #00f2ff;
+  border: 2px solid #ff0000;
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.card h2 {
+  margin: 0 0 8px;
+  color: #ff0000;
+}
+
+.tab-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+}
+
+.tab-bar button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 20px;
+}
