@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centsible</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-512.png">
+</head>
+<body>
+    <div class="app">
+        <header>Centsible</header>
+
+        <main id="earnings" class="tab">
+            <section class="card">
+                <h2>Earnings</h2>
+                <div class="row">
+                    <div><strong>Hourly Rate</strong><p>$15.00</p></div>
+                    <div><strong>Hours Worked</strong><p>40 hrs</p></div>
+                </div>
+                <div class="row">
+                    <div><strong>Pay Period</strong><p>Biweekly ></p></div>
+                    <div><strong>This Week</strong><p>$800.00</p></div>
+                </div>
+                <div class="row">
+                    <div><strong>Removed for Taxes</strong><p class="tax">-104.64</p></div>
+                </div>
+                <button>Add Bonuses/Tips</button>
+            </section>
+
+            <section class="card">
+                <div class="row">
+                    <div><strong>Savings</strong><p>$1,000.00</p></div>
+                    <div><strong>Savings Goal</strong><p>$1,500.00</p></div>
+                </div>
+            </section>
+        </main>
+
+        <main id="expenses" class="tab" style="display:none;">
+            <section class="card">
+                <h2>Expenses</h2>
+                <p><strong>Total:</strong> $2,340.00</p>
+                <p><strong>Monthly Budget:</strong> $3,500.00</p>
+                <div class="expense-item"><strong>Office Supplies</strong><span>New Printer</span><span>$520.00</span></div>
+                <div class="expense-item"><strong>Travel</strong><span>Flight to Boston</span><span>$600.00</span></div>
+                <div class="expense-item"><strong>Office Supplies</strong><span>New Monitor</span><span>$420.00</span></div>
+                <div class="expense-item"><strong>Meals</strong><span>Team Lunch</span><span>$60.00</span></div>
+                <button>Add Expense</button>
+            </section>
+        </main>
+
+        <nav>
+            <button onclick="switchTab('earnings')">Earnings</button>
+            <button onclick="switchTab('expenses')">Expenses</button>
+        </nav>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

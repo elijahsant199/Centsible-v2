@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121219;
+    color: white;
+}
+
+.app {
+    padding: 20px;
+}
+
+header {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: #1e1e2f;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.tax {
+    color: red;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #00f2ff;
+    color: #00f2ff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: #1e1e2f;
+    padding: 15px 0;
+}
+
+nav button {
+    background: none;
+    border: none;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.expense-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0;
+}
